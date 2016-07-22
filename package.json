@@ -1,0 +1,20 @@
+{
+  "name": "leveros-node",
+  "version": "1.0.0",
+  "description": "Leveros nodejs example",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "Leveros",
+    "node",
+    "js",
+    "example"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "dependencies": {
+    "leveros": "^0.1.1"
+  }
+}
