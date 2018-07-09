@@ -4,7 +4,9 @@
   "description": "Leveros nodejs example",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "Leveros",
@@ -15,6 +17,8 @@
   "author": "Çağatay Çalı",
   "license": "ISC",
   "dependencies": {
-    "leveros": "^0.1.1"
-  }
+    "leveros": "^0.1.1",
+    "snyk": "^1.88.2"
+  },
+  "snyk": true
 }
